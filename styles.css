@@ -22,3 +22,12 @@ img {
     border: 5px solid red;
 }
 
+/* using color() to change p tag*/
+p {
+    color:color(display-p3 1 0.5 0.2);
+}
+
+/* using color-mx() to combine to colors for names */
+li {
+    color:color-mix(in display-p3, red 60%, blue 40%);
+}

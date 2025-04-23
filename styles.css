@@ -121,3 +121,23 @@ button:active {
     border-radius: 8px;
     font-weight: bold;
 }
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px 20px;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  form label {
+    grid-column: 1 / 2;
+  }
+  
+  form input,
+  form textarea,
+  form select,
+  form button {
+    grid-column: 2 / 3;
+  }
+  

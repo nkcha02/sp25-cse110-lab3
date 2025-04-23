@@ -102,3 +102,22 @@ button:active {
     background-color: darkorange;
     transform: scale(0.98);
 }
+
+.flex-layout {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:10px;
+    margin-top: 20px;
+}
+
+.box {
+    background-color: aliceblue;
+    color:skyblue;
+    padding: 15px;
+    width:120px;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: bold;
+}

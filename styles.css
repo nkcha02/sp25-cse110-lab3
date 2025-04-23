@@ -63,6 +63,13 @@ img {
     border-width: 5px;
     border-style: inset;
     border-color:solid red;
+    display:inline-block
+}
+
+video {
+    display:inline;
+    max-width: 100%;
+    min-width:480px;
 }
 
 /* using color() to change p tag*/

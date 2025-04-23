@@ -115,7 +115,7 @@ p {
 
 /* using color-mix() to combine to colors for names */
 li {
-    color: color-mix(rgb(255, 0, 0) 60%, rgb(0, 0, 255) 40%); 
+    color: color-mix(in rgb, rgb(255, 0, 0) 60%, rgb(0, 0, 255) 40%);
 }
 
 /*giving button hover and actives */

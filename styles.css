@@ -89,3 +89,16 @@ p {
 li {
     color:color-mix(in display-p3, red 60%, blue 40%);
 }
+
+/*giving button hover and actives */
+
+button:hover {
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: darkorange;
+    transform: scale(0.98);
+}

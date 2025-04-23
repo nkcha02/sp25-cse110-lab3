@@ -6,3 +6,12 @@ h1 {
     color: navy;
     font-size:32px;
 }
+/* making sub headers more vibrant */
+h2 {
+    color:rgb(255, 132, 22);
+}
+/* adjusting agenda to lighter color */
+.agenda {
+    color:hsl(23,2,34);
+}
+

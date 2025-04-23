@@ -17,17 +17,17 @@ input[required] {
 form:has(input:required) {
     border:2px dashed #4caf50;
 }
-section { 
-    & h3 {
+
+    section h3 {
         color:#00897b;
         margin-top:10px;
     }
 
-    &ul {
+    section ul {
         list-style-type: square;
         padding-left:20px;
     }
-}
+
 
 
 
@@ -57,7 +57,7 @@ header {
 }
 
 section {
-    height:20com;
+    height:20rem;
     overflow-y:auto;
     padding-top: 10px;
     padding-right: 12px;
@@ -66,7 +66,7 @@ section {
 }
 
 footer {
-    margin-top: 20x 15px 20px 15px;
+    margin-top: 20px;
     font-size:1.2rem;
     text-align: center;
 }
@@ -79,8 +79,8 @@ body {
     margin:auto;
 }
 /* adjusting agenda to lighter color */
-.agenda {
-    color:hsl(23,2,34);
+.agenda { 
+    color:hsl(270, 65%, 40%);
 }
 /*making image rounder and correcting size, giving color */
 img {
@@ -89,7 +89,7 @@ img {
     border-radius:50%;
     border-width: 5px;
     border-style: inset;
-    border-color:solid red;
+    border-color: red;
     display:inline-block;
 }
 

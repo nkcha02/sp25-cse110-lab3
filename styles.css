@@ -109,13 +109,13 @@ audio {
 
 /* using color() to change p tag*/
 p {
-    color:color(display-p3 1 0.5 0.2);
+    color: rgb(255 128 51 / 100%);
     color:rgb(255,100,50);
 }
 
 /* using color-mx() to combine to colors for names */
 li {
-    color:color-mix(display-p3, red 60%, blue 40%);
+    color: color-mix(rgb, rgb(255, 0, 0) 60%, rgb(0, 0, 255) 40%);
 }
 
 /*giving button hover and actives */

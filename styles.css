@@ -113,7 +113,7 @@ p {
     color:rgb(255,100,50);
 }
 
-/* using color-mx() to combine to colors for names */
+/* using color-mix() to combine to colors for names */
 li {
     color:color-mix(display-p3, red 60%, blue 40%);
 }

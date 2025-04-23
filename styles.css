@@ -1,0 +1,8 @@
+/* this is the css stylesheet for meeting minutes */
+
+
+/* adding contrast to h1 and changing color to navy */
+h1 {
+    color: navy;
+    font-size:32px;
+}

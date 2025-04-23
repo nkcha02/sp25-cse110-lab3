@@ -14,4 +14,11 @@ h2 {
 .agenda {
     color:hsl(23,2,34);
 }
+/*making image rounder and correcting size, giving color */
+img {
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    border: 5px solid red;
+}
 

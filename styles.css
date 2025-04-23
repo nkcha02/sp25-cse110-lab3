@@ -1,6 +1,9 @@
 /* this is the css stylesheet for meeting minutes */
 
 
+
+
+
 /* adding contrast to h1 and changing color to navy */
 h1 {
     color: navy;
@@ -24,7 +27,7 @@ img {
 
 /* using color() to change p tag*/
 p {
-    color:color(display-p3 1 0.5 0.2);
+    color:color(display-p3 1 0.5 0.2), rgb(255,100,50);
 }
 
 /* using color-mx() to combine to colors for names */

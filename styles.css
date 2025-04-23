@@ -16,6 +16,10 @@ h2 {
     background-color:rgb(33,33,33);
     font-size:2rem;
 }
+em {
+    text-decoration: solid;
+    text-align: center;
+}
 
 header {
     width:80vw;
